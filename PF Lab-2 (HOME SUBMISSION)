@@ -1,0 +1,50 @@
+PSEUDOCODE
+
+TASK 2: Take three variables as input and add them without using the + operator.
+
+START
+//INPUT
+INPUT number1
+INPUT number2
+INPUT number3
+//PROCESS STEPS 
+Set Answer to [(-number1-number2-number3) * (-1)]
+//OUTPUT
+Display Answer
+END
+ 
+TASK 3: CREATE A SMALL CALCULATOR WHICH ONLY DOES ‘+’ OR ‘- ‘OPERATIONS. (HINT: TAKE THREE VARIABLE INPUTS WITH ONE BEING USED FOR THE OPERATOR)
+
+START
+// INPUT/ OUTPUT
+INPUT number1
+INPUT number2
+INPUT operator (‘+’ or ‘- ‘)
+// CONDITIONAL STATEMENTS 
+IF operator is ‘+’ THEN 
+     Answer = number1 + number2
+ELSE 
+     Answer = number1 – number2
+END
+
+ALGORITHM
+
+TASK 1: Implement an algorithm for determining if Nth is a divisor of an n Number (i.e. 2 is a divisor of 6). If so, determine if it’s an even number or odd number as well.
+
+Ask the user to enter N
+Ask the user to enter n
+If n % N = 0, then N is the divisor of n, otherwise N is not the divisor of n
+If N % 2 = 0, then N is even, otherwise N is odd
+Display the Results
+
+TASK 3: Implement an algorithm for making a simple calculator with all the operators (+, -, *, /, %)
+
+Ask the user to enter Number1
+Ask the user to enter Operator
+Ask the user to enter Number2
+If Operator is ‘+’, set Answer to Number1 + Number2
+If Operator is ‘-’, set Answer to Number1 - Number2
+If Operator is ‘*’, set Answer to Number1 * Number2
+If Operator is ‘/’, set Answer to Number1 / Number2
+If Operator is ‘%’, set Answer to Number1 % Number2
+Display Answer for the user
